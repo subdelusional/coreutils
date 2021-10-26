@@ -3,7 +3,7 @@
 #include <dirent.h>
 #include <errno.h>
 
-int main(int argc, char *argv[1])
+int main(int argc, char **argv)
 {
   if (argc < 2)
     argv[1] = ".";
